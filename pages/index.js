@@ -16,7 +16,6 @@ const Home = () => {
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
 
-    console.log("Calling OpenAI...")
     const response = await fetch('/api/generate', {
       method: 'POST',
       headers: {
@@ -65,7 +64,7 @@ const Home = () => {
             <div className="output">
               <div className="output-header-container">
                 <div className="output-header">
-                  <h3>Output</h3>
+                  <h3>Tweet Thread</h3>
                 </div>
               </div>
               <div className="output-content">

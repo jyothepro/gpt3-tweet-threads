@@ -27,7 +27,7 @@ const generateAction = async (req, res) => {
   // I build Prompt #2.
   const secondPrompt =
   `
-  write a tweet thread from the text below with atleast 6 tweets in the style of Shann Puri whose twitter id of @shaanvp. Please make sure the post goes in-depth on the topic and shows that the writer did their research. Make teh firest few tweets very curious so that the user continues to read the next tweets. Dont mention anything about the author. remove urls if present.
+  write a tweet thread from the text below with atleast 6 tweets in the style of Shann Puri whose twitter id of @shaanvp. Please make sure the post goes in-depth on the topic and shows that the writer did their research. Make the first few tweets very curious so that the user continues to read the next tweets. Dont mention anything about the author. remove urls if present. Include a new line after each tweet
 
 
   `
